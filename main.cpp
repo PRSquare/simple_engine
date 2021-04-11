@@ -75,7 +75,6 @@ myGeometry geomInicial(objModel* object)
 
 int main(void)
 {
-    std::cout << "Hello world";
     log_file.open("log.txt");
     if( !log_file.is_open() )
     {
